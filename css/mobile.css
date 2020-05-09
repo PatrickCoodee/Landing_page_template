@@ -1,0 +1,55 @@
+.header {
+  max-width: 100vw;
+}
+
+.navbar {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.logo {
+  display:none;
+}
+.skill__box{
+  flex-direction: column;
+  
+  text-align: center;
+  padding: 0 5rem;
+}
+
+
+.metrics {
+  flex-direction: column;
+}
+
+.how-to__box-container {
+  flex-direction: column;
+}
+
+.about {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about__text {
+  text-align: center;
+}
+.social__list{
+  justify-content: center;
+}
+
+.about__img-container {
+  padding:5rem;
+}
+
+.card {
+  padding: 2rem 5rem;
+}
+
+.main__footer .container {
+  flex-direction: column;
+  padding-bottom: 2rem;
+  
+}

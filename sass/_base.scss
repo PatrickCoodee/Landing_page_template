@@ -1,0 +1,44 @@
+:root {
+  --color-grey-light: #F0F6F7FF;
+  --color-orange-cow: #FF5500; 
+  --color-grey-light-2: #CCCCCC;
+  --color-grey-dark: #EFEFEF;
+  --color-yellow-sunrise: #FFBC00;
+  --color-underline: #444;
+  --color-footer: #232323;
+  --color-footer-text: #c1c1c1;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+}

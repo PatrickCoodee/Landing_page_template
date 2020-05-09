@@ -1,0 +1,194 @@
+.header {
+  min-height: 100vh;
+  background-image: url('/img/dancing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  
+}
+
+
+.navbar{
+  display:flex;
+  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  
+  &__link-list {
+    display: flex; 
+   }
+
+  &__link-item{
+    padding: 0 2rem;
+  }
+
+
+  &__link{
+    transition: font-size .2s ease;
+    &:link,
+    &:visited {
+      text-transform: uppercase;
+      color: var(--color-grey-light);
+    }
+
+    &:hover {
+      border-bottom: 2px solid var(--color-orange-cow);
+      font-size: 2rem;
+    }
+
+  }
+  
+}
+
+.showcase{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.skill {
+  background-color: var(--color-grey-light);
+  padding:10rem 0;
+  
+  &__text-box {
+    text-align: center;
+  }
+
+
+  &__box {
+    margin:2rem 0;
+    display:flex;
+  }
+
+  &__item{
+    flex: 0 0 25%;
+    padding: 1rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  &__text {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &--description {
+      font-size: 1.4;
+      font-weight: 300;
+    }
+  }
+}
+
+.metrics{
+  display: flex;
+
+  &__box:nth-child(even) {
+    background-color: var(--color-grey-dark);
+  }
+  &__box:nth-child(odd) {
+    background-color: var(--color-grey-light-2);
+  }
+
+  &__box {
+    flex: 0 1 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5rem;
+  }
+}
+
+.how-to {
+  padding: 13rem 0;
+
+  &__description {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__text{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    
+  }
+}
+
+.about {
+  display:flex;
+  background-color: var(--color-grey-dark);
+  
+  &__items-text{
+    font-weight: 300;
+  }
+
+  &__list {
+    text-decoration: none;
+    padding: 1.4rem 0 3rem 0;
+  }
+
+  &__text {
+     flex: 0 0 50%;
+    padding: 15rem 5rem;
+    // max-width: 50%;
+  }
+  
+  &_heading-main {
+    text-transform: uppercase;
+    font-size: 3.1rem;
+    font-weight: 300;
+  }
+
+  &_heading-sub {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.5;
+  }
+
+  &_paragraph {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+
+  &__img-container{
+    flex: 0 0 50%;
+    // max-width: 50%;
+    padding: 1rem;
+  }
+
+  &__img-c {
+    width:100%;
+    height:100%;
+    
+    
+  }
+  &__photo {
+    display:inline-block;
+    width:100%;
+    height:100%;
+  }
+}
+
+
+.main__footer {
+  background-color: var(--color-footer);
+}
+
+.main__footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
